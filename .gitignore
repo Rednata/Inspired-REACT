@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 day1.module
+day2.module
+
+.hygen
