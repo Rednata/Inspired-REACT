@@ -2,7 +2,9 @@ import { NavLink } from 'react-router-dom';
 import s from './Gender.module.scss';
 import cn from 'classnames';
 
-export const Gender = ({list}) => (
+export const Gender = ({list}) => {
+  
+  return (
     <div>
       <ul className={s.gender}>
         {
@@ -17,4 +19,5 @@ export const Gender = ({list}) => (
         }
       </ul>
     </div>
-  );
+  )
+};
